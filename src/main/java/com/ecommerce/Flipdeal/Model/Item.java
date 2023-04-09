@@ -22,7 +22,7 @@ public class Item
     @JoinColumn
     Cart cart;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn
     Product product;
 

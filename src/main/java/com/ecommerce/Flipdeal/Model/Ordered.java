@@ -1,6 +1,7 @@
 package com.ecommerce.Flipdeal.Model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
@@ -11,8 +12,9 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Data
 public class Ordered
 {
